@@ -71,7 +71,9 @@ function App() {
    <> {fruits.length > 0 && <List items={fruits} category="Fruits"/>} </>// same as ? :     
   ); */
 
-  return (<ProfilePicture/>);
+  // onClick event 
+  /* return (<Button></Button>) */
+  /* return (<ProfilePicture/>); */
 }
 
 export default App
