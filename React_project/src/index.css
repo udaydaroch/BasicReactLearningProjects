@@ -30,3 +30,45 @@
 .row {
   display: inline-block;
 }
+
+
+.welcome-message {
+  font-size: 2.5em;
+  background-color: hsl(120, 100%, 42%);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+}
+ 
+.login-prompt {
+  font-size: 2.5em;
+  background-color: hsl(30, 100%, 42%);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.list-category {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: hsl(0,0,20%);
+  margin-bottom: 10px;
+  text-align:center;
+  border: 3px solid;
+  border-radius: 5px;
+  background-color:burlywood;
+}
+.list-item li {
+  font-size: 2em;
+  list-style: none;
+  color:hsl(0, 0%, 80%);
+  text-align: center;
+  margin: 0;
+}
+
+.list-item li:hover {
+  color: rgb(177, 208, 208);
+  cursor: pointer;
+}
