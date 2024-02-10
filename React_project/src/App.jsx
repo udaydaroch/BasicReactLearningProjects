@@ -8,6 +8,8 @@ import UserGreeting from './userGreeting.jsx'
 import List from './List.jsx'
 import Button from './Button2.jsx'
 import ProfilePicture from './vitapicture.jsx'
+import MyComponent from './MyComponent.jsx'
+import Counter from './Counter.jsx'
 function App() {
 
 // basic card generation using the card module.
@@ -74,6 +76,10 @@ function App() {
   // onClick event 
   /* return (<Button></Button>) */
   /* return (<ProfilePicture/>); */
+
+  // react hook basics (userstate() examples)
+   /*  return (<MyComponent/>); */
+   /* return (<Counter></Counter>); */
 }
 
 export default App
