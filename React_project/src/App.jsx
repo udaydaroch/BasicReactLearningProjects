@@ -11,6 +11,7 @@ import ProfilePicture from './vitapicture.jsx'
 import MyComponent from './MyComponent.jsx'
 import Counter from './Counter.jsx'
 import OnClickEvent from './onclickevent.jsx'
+import ColorPicker from './ColorPickerComponent.jsx'
 function App() {
 
 // basic card generation using the card module.
@@ -83,8 +84,8 @@ function App() {
    /* return (<Counter></Counter>); */
 
    // onclick change event handler 
-/* return (<OnClickEvent/>); */
-
+   /* return (<OnClickEvent/>); */
+  /*return (<ColorPicker></ColorPicker>);*/
 }
 
 export default App

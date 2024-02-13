@@ -6,6 +6,12 @@ function Counter() {
 
   const UpdateIncrement = () => {
     setCount(count+1);
+    // update fucntions for when the values are needed to be chnaged like + 3 times. 
+    // setCount ( c => c + 1);
+    // or setCount ( prevCount => prevCount + 1)
+    // Take the prending state to calculate Next State.
+    // react puts your updater function in a query ( waiting in a line) 
+    // During the next render, it will call them in the same order. 
   }
 
   const UpdateDecrement = () => {
