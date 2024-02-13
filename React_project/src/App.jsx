@@ -10,6 +10,7 @@ import Button from './Button2.jsx'
 import ProfilePicture from './vitapicture.jsx'
 import MyComponent from './MyComponent.jsx'
 import Counter from './Counter.jsx'
+import OnClickEvent from './onclickevent.jsx'
 function App() {
 
 // basic card generation using the card module.
@@ -80,6 +81,10 @@ function App() {
   // react hook basics (userstate() examples)
    /*  return (<MyComponent/>); */
    /* return (<Counter></Counter>); */
+
+   // onclick change event handler 
+/* return (<OnClickEvent/>); */
+
 }
 
 export default App
